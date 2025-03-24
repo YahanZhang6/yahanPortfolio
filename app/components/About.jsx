@@ -14,7 +14,7 @@ const About = ({isDarkMode}) => {
     
       
     <p  className='mb-10 max-w-2xl  font-Ovo'>
-      我的本科毕业于华盛顿圣路易斯大学的计算机专业。我目前是圣路易斯华盛顿大学计算机专业的研究生在读。
+      我目前在圣路易斯华盛顿大学攻读计算机硕士学位，本科也是在该校完成的计算机专业学习，对前端开发充满热情，也积累了一定的项目经验和实习经验。
     </p>
     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
       {infoList.map(({ icon, iconDark, title, description }, index) => (

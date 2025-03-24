@@ -34,7 +34,7 @@ const Header = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.6, delay:0.7}}
        className='max-w-2xl mx-auto font-Ovo'>
-        我是一个计算机专业的学生。我有一段前端相关实习，我很开心了解上海，杭州，北京，深圳等大城市的工作机会。
+        我是一名计算机专业的研究生，拥有前端开发相关项目经验和实习经验。非常期待了解上海、杭州、北京、深圳等一线城市的工作机会。
        </motion.p>
 
        <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
