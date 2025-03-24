@@ -30,7 +30,7 @@ const [result, setResult] = React.useState("");
   return (
     <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20'>
         <h4 className='text-center text-5xl font-Ovo bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none'>
-  和我联系
+  给我留言
 </h4>
 {/* <h2 className='text-center text-5xl font-Ovo'>
   项目

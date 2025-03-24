@@ -45,7 +45,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             <li><a className='font-Ovo' href="#about">关于我</a></li>
            
             <li><a className='font-Ovo' href="#work">项目</a></li>
-            <li><a className='font-Ovo' href="#contact">联系我</a></li>
+            <li><a className='font-Ovo' href="#contact">留言</a></li>
         </ul>
 
         <div className='flex items-center gap-4'>
