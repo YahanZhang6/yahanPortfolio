@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: Outfit;
+}
+
+@theme {
+ --color-light-hover: #fcf4ff;
+ --color-dark-hover: #2a004a;
+ --color-dark-theme:#11001F;
+ --font-Outfit: Outfit, sans-serif;
+ --font-Ovo: Ovo, serif;
+ /* --boxshadow-black: 4px 4px 0 #000;
+--boxshadow-white:4px 4px 0 #fff;
+--grid-col-auto: repeat(auto-fit, minmax(200px, 1fr)); */
+/* --darkmode:selector; */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-dark-theme);
+    --color-text: white;
+  }
+} */
